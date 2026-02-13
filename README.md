@@ -91,9 +91,290 @@ about.html
 </body>
 </html>
 ```
+contact.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div class="page">
+    <h1>Contact Me</h1>
+    <p class="lead">Let's collaborate on innovative software engineering solutions.</p>
+
+    <div class="contact-info">
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:nikexhkumar@gmail.com">nikexhkumar@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p><a href="tel:+916380652445">+91 6380652445</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>LinkedIn</h3>
+            <p><a href="#" target="_blank">linkedin.com/in/nikesh</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>GitHub</h3>
+            <p><a href="#" target="_blank">github.com/nikesh</a></p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send me a Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+```
+port.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div class="home">
+    <h1>Hello, I'm NIKESH</h1>
+    <p class="subtitle">Full Stack Software Engineer</p>
+    <p class="description">Building scalable systems, clean architectures, and innovative solutions 🧑‍💻</p>
+    <div class="cta-buttons">
+        <a href="about.html" class="btn btn-primary">Learn More</a>
+        <a href="projects.html" class="btn btn-secondary">View My Work</a>
+    </div>
+</div>
+
+</body>
+</html>
+```
+projects.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+
+
+
+<div class="page">
+    <h1>My Projects</h1>
+    <p class="lead">A collection of full-stack software engineering projects showcasing system design, scalability, and best practices.</p>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <div class="project-badge">Full Stack</div>
+            <h3>Lifeline AI - Mental Health Detection System</h3>
+            <p>
+                An AI-powered backend service that detects early signs of emotional distress using NLP and behavioral analysis. Implemented microservices architecture with Python, PostgreSQL, and Redis for real-time data processing. Deployed on AWS with Docker containerization and automated CI/CD pipeline.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>PostgreSQL</span>
+                <span>AWS</span>
+                <span>Docker</span>
+            </div>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <div class="project-badge">Backend</div>
+            <h3>RESTful Task Management API</h3>
+            <p>
+                Scalable REST API for task management with JWT authentication, role-based access control, and comprehensive unit tests. Implemented pagination, filtering, and sorting for optimal performance. Achieved 99.9% uptime with proper error handling and logging.
+            </p>
+            <div class="tech-stack">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Jest</span>
+            </div>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <div class="project-badge">Full Stack</div>
+            <h3>Distributed System Monitoring Dashboard</h3>
+            <p>
+                Real-time monitoring dashboard for microservices architecture. Built with React frontend, Node.js backend, and time-series database for metrics. Implemented WebSocket for live updates and Grafana integration for advanced analytics.
+            </p>
+            <div class="tech-stack">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>InfluxDB</span>
+                <span>WebSocket</span>
+            </div>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <div class="project-badge">DevOps</div>
+            <h3>Infrastructure as Code Setup</h3>
+            <p>
+                Automated infrastructure provisioning using Terraform and CloudFormation. Implemented Kubernetes orchestration with Helm charts for multi-environment deployment. Set up comprehensive monitoring with Prometheus and ELK stack.
+            </p>
+            <div class="tech-stack">
+                <span>Kubernetes</span>
+                <span>Terraform</span>
+                <span>Docker</span>
+                <span>AWS</span>
+            </div>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <div class="project-badge">Frontend</div>
+            <h3>Responsive Developer Portfolio</h3>
+            <p>
+                Modern, performance-optimized portfolio website with accessibility standards compliance. Implemented responsive design, SEO optimization, and critical CSS inline strategy. Achieved 98/100 Lighthouse score.
+            </p>
+            <div class="tech-stack">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Tailwind CSS</span>
+                <span>Next.js</span>
+            </div>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <div class="project-badge">Backend</div>
+            <h3>Database Optimization & Query Performance</h3>
+            <p>
+                Analyzed and optimized complex database queries reducing response time by 78%. Implemented caching strategy with Redis, database indexing, and query optimization. Documented best practices for team implementation.
+            </p>
+            <div class="tech-stack">
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+                <span>Python</span>
+                <span>EXPLAIN ANALYZE</span>
+            </div>
+            <a href="#">View Project</a>
+        </div>
+
+    </div>
+</div>
+</body></html>
+```
+skills.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div class="page">
+    <h1>My Skills</h1>
+    
+    <h2 class="skill-category">Backend Development</h2>
+    <div class="skills-grid">
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">Go</div>
+        <div class="skill">SQL</div>
+        <div class="skill">PostgreSQL</div>
+    </div>
+
+    <h2 class="skill-category">Frontend Development</h2>
+    <div class="skills-grid">
+        <div class="skill">React</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">TypeScript</div>
+        <div class="skill">HTML/CSS</div>
+        <div class="skill">Vue.js</div>
+        <div class="skill">REST APIs</div>
+    </div>
+
+    <h2 class="skill-category">Tools & Platforms</h2>
+    <div class="skills-grid">
+        <div class="skill">Git</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">AWS</div>
+        <div class="skill">Linux</div>
+        <div class="skill">CI/CD</div>
+    </div>
+
+    <h2 class="skill-category">Core Competencies</h2>
+    <div class="skills-grid">
+        <div class="skill">Microservices</div>
+        <div class="skill">System Design</div>
+        <div class="skill">OOP</div>
+        <div class="skill">Agile/Scrum</div>
+        <div class="skill">Unit Testing</div>
+        <div class="skill">Code Review</div>
+    </div>
+</div>
+
+</body>
+</html>
+```
 
 
 ## OUTPUT
+<img width="1920" height="1080" alt="Screenshot 2026-02-10 144254" src="https://github.com/user-attachments/assets/0c7bc5ad-d485-47f6-9cc7-6ec53603e29c" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-10 144304" src="https://github.com/user-attachments/assets/69853863-0295-4e67-b142-916a68b656bc" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-10 144313" src="https://github.com/user-attachments/assets/53e3246a-86aa-4ad8-9d8c-0849e76f1ef8" />
+
+
 
 
 ## RESULT
